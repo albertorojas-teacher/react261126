@@ -6,7 +6,7 @@ export const ChameleonButton = () => {
   // El booleano representa si el boton esta activo o no
   const [active, setActive] = useState<boolean>(false);
 
-  //   Invertimos el valor conocido eni liugar de depnder de una copia
+  //   Invertimos el valor conocido eni liugar de depender de una copia
   // potencialmente antigua capturada por el manejador
   const handleToggle = () => setActive((prev) => !prev);
 
